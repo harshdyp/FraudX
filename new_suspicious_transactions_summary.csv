@@ -1,0 +1,8 @@
+Suspicion_Reasons,Count
+"High Transaction Amount, High Transaction Velocity",113
+High Transaction Velocity,90
+High Transaction Amount,19
+Unknown,6
+"High Transaction Amount, High Transaction Velocity, Known fraudster involved",3
+"High Transaction Amount, Known fraudster involved",2
+"High Transaction Velocity, Known fraudster involved",2
