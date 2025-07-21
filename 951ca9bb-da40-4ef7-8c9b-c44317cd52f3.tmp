@@ -1,0 +1,1771 @@
+
+[     UTC     ] Logs for fraudx-5vs6demnxcswpjklauvffv.streamlit.app/
+────────────────────────────────────────────────────────────────────────────────────────
+[13:48:47] 🖥 Provisioning machine...
+[13:48:53] 🎛 Preparing system...
+[13:48:59] ⛓ Spinning up manager process...
+[13:49:04] 🎈 Inflating balloons...
+[13:49:09] 📖 Unpacking Comic Sans RAR files...
+[13:49:00] 🚀 Starting up repository: 'fraudx', branch: 'main', main module: 'app.py'
+[13:49:00] 🐙 Cloning repository...
+[13:49:01] 🐙 Cloning into '/mount/src/fraudx'...
+
+[13:49:01] 🐙 Cloned repository!
+[13:49:01] 🐙 Pulling code changes from Github...
+[13:49:02] 📦 Processing dependencies...
+
+──────────────────────────────────────── uv ───────────────────────────────────────────
+
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved 42 packages in 443ms
+  × Failed to download and build `scikit-learn==1.3.0`
+  ╰─▶ Build backend failed to build wheel through `build_wheel` (exit status:
+      1)
+
+      [stdout]
+      Compiling sklearn/__check_build/_check_build.pyx because it changed.
+      Compiling sklearn/_isotonic.pyx because it changed.
+      Compiling sklearn/_loss/_loss.pyx because it changed.
+      Compiling sklearn/cluster/_dbscan_inner.pyx because it changed.
+      Compiling sklearn/cluster/_hierarchical_fast.pyx because it changed.
+      Compiling sklearn/cluster/_k_means_common.pyx because it changed.
+      Compiling sklearn/cluster/_k_means_lloyd.pyx because it changed.
+      Compiling sklearn/cluster/_k_means_elkan.pyx because it changed.
+      Compiling sklearn/cluster/_k_means_minibatch.pyx because it changed.
+      Compiling sklearn/cluster/_hdbscan/_linkage.pyx because it changed.
+      Compiling sklearn/cluster/_hdbscan/_reachability.pyx because it changed.
+      Compiling sklearn/cluster/_hdbscan/_tree.pyx because it changed.
+      Compiling sklearn/datasets/_svmlight_format_fast.pyx because it changed.
+      Compiling sklearn/decomposition/_online_lda_fast.pyx because it changed.
+      Compiling sklearn/decomposition/_cdnmf_fast.pyx because it changed.
+      Compiling sklearn/ensemble/_gradient_boosting.pyx because it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/_gradient_boosting.pyx
+      because it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/histogram.pyx because
+      it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/splitting.pyx because
+      it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/_binning.pyx because
+      it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/_predictor.pyx
+      because it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/_bitset.pyx because
+      it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/common.pyx because
+      it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/utils.pyx because
+      it changed.
+      Compiling sklearn/feature_extraction/_hashing_fast.pyx because it
+      changed.
+      Compiling sklearn/linear_model/_cd_fast.pyx because it changed.
+      Compiling sklearn/linear_model/_sgd_fast.pyx because it changed.
+      Compiling sklearn/linear_model/_sag_fast.pyx because it changed.
+      Compiling sklearn/manifold/_utils.pyx because it changed.
+      Compiling sklearn/manifold/_barnes_hut_tsne.pyx because it changed.
+      Compiling sklearn/metrics/_pairwise_fast.pyx because it changed.
+      Compiling sklearn/metrics/_dist_metrics.pyx because it changed.
+      Compiling sklearn/metrics/cluster/_expected_mutual_info_fast.pyx because
+      it changed.
+      Compiling
+      sklearn/metrics/_pairwise_distances_reduction/_datasets_pair.pyx because
+      it changed.
+      Compiling
+      sklearn/metrics/_pairwise_distances_reduction/_middle_term_computer.pyx
+      because it changed.
+      Compiling sklearn/metrics/_pairwise_distances_reduction/_base.pyx
+      because it changed.
+      Compiling sklearn/metrics/_pairwise_distances_reduction/_argkmin.pyx
+      because it changed.
+      Compiling
+      sklearn/metrics/_pairwise_distances_reduction/_argkmin_classmode.pyx
+      because it changed.
+      Compiling
+      sklearn/metrics/_pairwise_distances_reduction/_radius_neighbors.pyx
+      because it changed.
+      Compiling sklearn/preprocessing/_csr_polynomial_expansion.pyx because
+      it changed.
+      Compiling sklearn/preprocessing/_target_encoder_fast.pyx because it
+      changed.
+      Compiling sklearn/neighbors/_ball_tree.pyx because it changed.
+      Compiling sklearn/neighbors/_kd_tree.pyx because it changed.
+      Compiling sklearn/neighbors/_partition_nodes.pyx because it changed.
+      Compiling sklearn/neighbors/_quad_tree.pyx because it changed.
+      Compiling sklearn/svm/_newrand.pyx because it changed.
+      Compiling sklearn/svm/_libsvm.pyx because it changed.
+      Compiling sklearn/svm/_liblinear.pyx because it changed.
+      Compiling sklearn/svm/_libsvm_sparse.pyx because it changed.
+      Compiling sklearn/tree/_tree.pyx because it changed.
+      Compiling sklearn/tree/_splitter.pyx because it changed.
+      Compiling sklearn/tree/_criterion.pyx because it changed.
+      Compiling sklearn/tree/_utils.pyx because it changed.
+      Compiling sklearn/utils/sparsefuncs_fast.pyx because it changed.
+      Compiling sklearn/utils/_cython_blas.pyx because it changed.
+      Compiling sklearn/utils/arrayfuncs.pyx because it changed.
+      Compiling sklearn/utils/murmurhash.pyx because it changed.
+      Compiling sklearn/utils/_fast_dict.pyx because it changed.
+      Compiling sklearn/utils/_openmp_helpers.pyx because it changed.
+      Compiling sklearn/utils/_seq_dataset.pyx because it changed.
+      Compiling sklearn/utils/_weight_vector.pyx because it changed.
+      Compiling sklearn/utils/_random.pyx because it changed.
+      Compiling sklearn/utils/_logistic_sigmoid.pyx because it changed.
+      Compiling sklearn/utils/_typedefs.pyx because it changed.
+      Compiling sklearn/utils/_heap.pyx because it changed.
+      Compiling sklearn/utils/_sorting.pyx because it changed.
+      Compiling sklearn/utils/_vector_sentinel.pyx because it changed.
+      Compiling sklearn/utils/_isfinite.pyx because it changed.
+      [ 1/68] Cythonizing sklearn/__check_build/_check_build.pyx
+      [ 2/68] Cythonizing sklearn/_isotonic.pyx
+      [ 3/68] Cythonizing sklearn/_loss/_loss.pyx
+      [ 4/68] Cythonizing sklearn/cluster/_dbscan_inner.pyx
+      [ 5/68] Cythonizing sklearn/cluster/_hdbscan/_linkage.pyx
+      [ 6/68] Cythonizing sklearn/cluster/_hdbscan/_reachability.pyx
+      [ 7/68] Cythonizing sklearn/cluster/_hdbscan/_tree.pyx
+      [ 8/68] Cythonizing sklearn/cluster/_hierarchical_fast.pyx
+      [ 9/68] Cythonizing sklearn/cluster/_k_means_common.pyx
+      [10/68] Cythonizing sklearn/cluster/_k_means_elkan.pyx
+      [11/68] Cythonizing sklearn/cluster/_k_means_lloyd.pyx
+      [12/68] Cythonizing sklearn/cluster/_k_means_minibatch.pyx
+      [13/68] Cythonizing sklearn/datasets/_svmlight_format_fast.pyx
+      [14/68] Cythonizing sklearn/decomposition/_cdnmf_fast.pyx
+      [15/68] Cythonizing sklearn/decomposition/_online_lda_fast.pyx
+      [16/68] Cythonizing sklearn/ensemble/_gradient_boosting.pyx
+      [17/68] Cythonizing sklearn/ensemble/_hist_gradient_boosting/_binning.pyx
+      [18/68] Cythonizing sklearn/ensemble/_hist_gradient_boosting/_bitset.pyx
+      [19/68] Cythonizing
+      sklearn/ensemble/_hist_gradient_boosting/_gradient_boosting.pyx
+      [20/68] Cythonizing
+      sklearn/ensemble/_hist_gradient_boosting/_predictor.pyx
+      [21/68] Cythonizing sklearn/ensemble/_hist_gradient_boosting/common.pyx
+      [22/68] Cythonizing
+      sklearn/ensemble/_hist_gradient_boosting/histogram.pyx
+      [23/68] Cythonizing
+      sklearn/ensemble/_hist_gradient_boosting/splitting.pyx
+      [24/68] Cythonizing sklearn/ensemble/_hist_gradient_boosting/utils.pyx
+      [25/68] Cythonizing sklearn/feature_extraction/_hashing_fast.pyx
+      [26/68] Cythonizing sklearn/linear_model/_cd_fast.pyx
+      [27/68] Cythonizing sklearn/linear_model/_sag_fast.pyx
+      [28/68] Cythonizing sklearn/linear_model/_sgd_fast.pyx
+      [29/68] Cythonizing sklearn/manifold/_barnes_hut_tsne.pyx
+      [30/68] Cythonizing sklearn/manifold/_utils.pyx
+      [31/68] Cythonizing sklearn/metrics/_dist_metrics.pyx
+      [32/68] Cythonizing
+      sklearn/metrics/_pairwise_distances_reduction/_argkmin.pyx
+      [33/68] Cythonizing
+      sklearn/metrics/_pairwise_distances_reduction/_argkmin_classmode.pyx
+      [34/68] Cythonizing
+      sklearn/metrics/_pairwise_distances_reduction/_base.pyx
+      [35/68] Cythonizing
+      sklearn/metrics/_pairwise_distances_reduction/_datasets_pair.pyx
+      [36/68] Cythonizing
+      sklearn/metrics/_pairwise_distances_reduction/_middle_term_computer.pyx
+      [37/68] Cythonizing
+      sklearn/metrics/_pairwise_distances_reduction/_radius_neighbors.pyx
+      [38/68] Cythonizing sklearn/metrics/_pairwise_fast.pyx
+      [39/68] Cythonizing
+      sklearn/metrics/cluster/_expected_mutual_info_fast.pyx
+      [40/68] Cythonizing sklearn/neighbors/_ball_tree.pyx
+      [41/68] Cythonizing sklearn/neighbors/_kd_tree.pyx
+      [42/68] Cythonizing sklearn/neighbors/_partition_nodes.pyx
+      [43/68] Cythonizing sklearn/neighbors/_quad_tree.pyx
+      [44/68] Cythonizing sklearn/preprocessing/_csr_polynomial_expansion.pyx
+      [45/68] Cythonizing sklearn/preprocessing/_target_encoder_fast.pyx
+      [46/68] Cythonizing sklearn/svm/_liblinear.pyx
+      [47/68] Cythonizing sklearn/svm/_libsvm.pyx
+      [48/68] Cythonizing sklearn/svm/_libsvm_sparse.pyx
+      [49/68] Cythonizing sklearn/svm/_newrand.pyx
+      [50/68] Cythonizing sklearn/tree/_criterion.pyx
+      [51/68] Cythonizing sklearn/tree/_splitter.pyx
+      [52/68] Cythonizing sklearn/tree/_tree.pyx
+      [53/68] Cythonizing sklearn/tree/_utils.pyx
+      [54/68] Cythonizing sklearn/utils/_cython_blas.pyx
+      [55/68] Cythonizing sklearn/utils/_fast_dict.pyx
+      [56/68] Cythonizing sklearn/utils/_heap.pyx
+      [57/68] Cythonizing sklearn/utils/_isfinite.pyx
+      [58/68] Cythonizing sklearn/utils/_logistic_sigmoid.pyx
+      [59/68] Cythonizing sklearn/utils/_openmp_helpers.pyx
+      [60/68] Cythonizing sklearn/utils/_random.pyx
+      [61/68] Cythonizing sklearn/utils/_seq_dataset.pyx
+      [62/68] Cythonizing sklearn/utils/_sorting.pyx
+      [63/68] Cythonizing sklearn/utils/_typedefs.pyx
+      [64/68] Cythonizing sklearn/utils/_vector_sentinel.pyx
+      [65/68] Cythonizing sklearn/utils/_weight_vector.pyx
+      [66/68] Cythonizing sklearn/utils/arrayfuncs.pyx
+      [67/68] Cythonizing sklearn/utils/murmurhash.pyx
+      [68/68] Cythonizing sklearn/utils/sparsefuncs_fast.pyx
+
+      [stderr][2025-07-21 13:50:29.259789] 
+      Partial import of sklearn during the build process.
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # particularly tiny on Windows/MSVC.
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 0x7FFFFFFF
+
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pxd:19:33: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 0x7FFFFFFF
+
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       cnp.int_t n_samples,
+                                       ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pxd:20:33: 'int_t' is not a type identifier
+      Traceback (most recent call last):
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/Cython/Build/Dependencies.py",
+      line 1306, in cythonize_one_helper
+          return cythonize_one(*m)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/Cython/Build/Dependencies.py",
+      line 1298, in cythonize_one
+          raise CompileError(None, pyx_file)
+      Cython.Compiler.Errors.CompileError: sklearn/linear_model/_cd_fast.pyx
+      warning: sklearn/metrics/_dist_metrics.pyx:725:44: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/metrics/_dist_metrics.pyx:788:40: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/metrics/_dist_metrics.pyx:3297:44: Assigning to
+      'float32_t *' from 'const float32_t *' discards const qualifier
+      warning: sklearn/metrics/_dist_metrics.pyx:3360:40: Assigning to
+      'float32_t *' from 'const float32_t *' discards const qualifier
+      performance hint:
+      sklearn/metrics/_pairwise_distances_reduction/_middle_term_computer.pyx:61:0:
+      Exception check on '_middle_term_sparse_dense_64' will always require
+      the GIL to be acquired.
+      Possible solutions:
+      	1. Declare '_middle_term_sparse_dense_64' as 'noexcept' if you control
+      the definition and you're sure you don't want the function to raise
+      exceptions.
+      	2. Use an 'int' return type on '_middle_term_sparse_dense_64' to allow
+      an error code to be returned.
+      performance hint:
+      sklearn/metrics/_pairwise_distances_reduction/_middle_term_computer.pyx:565:0:
+      Exception check on '_middle_term_sparse_dense_32' will always require
+      the GIL to be acquired.
+      Possible solutions:
+      	1. Declare '_middle_term_sparse_dense_32' as 'noexcept' if you control
+      the definition and you're sure you don't want the function to raise
+      exceptions.
+      	2. Use an 'int' return type on '_middle_term_sparse_dense_32' to allow
+      an error code to be returned.
+      performance hint:
+      sklearn/metrics/_pairwise_distances_reduction/_middle_term_computer.pyx:550:36:
+      Exception check after calling '_middle_term_sparse_dense_64' will always
+      require the GIL to be acquired.
+      Possible solutions:
+      	1. Declare '_middle_term_sparse_dense_64' as 'noexcept' if you control
+      the definition and you're sure you don't want the function to raise
+      exceptions.
+      	2. Use an 'int' return type on '_middle_term_sparse_dense_64' to allow
+      an error code to be returned.
+      performance hint:
+      sklearn/metrics/_pairwise_distances_reduction/_middle_term_computer.pyx:1088:36:
+      Exception check after calling '_middle_term_sparse_dense_32' will always
+      require the GIL to be acquired.
+      Possible solutions:
+      	1. Declare '_middle_term_sparse_dense_32' as 'noexcept' if you control
+      the definition and you're sure you don't want the function to raise
+      exceptions.
+      	2. Use an 'int' return type on '_middle_term_sparse_dense_32' to allow
+      an error code to be returned.
+      warning: sklearn/neighbors/_binary_tree.pxi:1035:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1036:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1160:17: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1292:13: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1599:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1647:8: Assigning to
+      'NodeData_t *' from 'const NodeData_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1648:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1701:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1702:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1797:8: Assigning to
+      'NodeData_t *' from 'const NodeData_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1798:8: Assigning to
+      'NodeData_t *' from 'const NodeData_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1800:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1801:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1883:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1884:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1970:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1974:28: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1975:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1976:8: Assigning to
+      'NodeData_t *' from 'const NodeData_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2132:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2133:8: Assigning to
+      'NodeData_t *' from 'const NodeData_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2138:28: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2139:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2255:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2256:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2305:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2306:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2307:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2308:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_ball_tree.pyx:64:4: Assigning to 'intp_t *'
+      from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_ball_tree.pyx:65:4: Assigning to 'float64_t
+      *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_ball_tree.pyx:66:4: Assigning to 'float64_t
+      *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_ball_tree.pyx:72:24: Assigning to 'float64_t
+      *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1035:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1036:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1160:17: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1292:13: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1599:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1647:8: Assigning to
+      'NodeData_t *' from 'const NodeData_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1648:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1701:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1702:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1797:8: Assigning to
+      'NodeData_t *' from 'const NodeData_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1798:8: Assigning to
+      'NodeData_t *' from 'const NodeData_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1800:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1801:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1883:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1884:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1970:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1974:28: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1975:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:1976:8: Assigning to
+      'NodeData_t *' from 'const NodeData_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2132:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2133:8: Assigning to
+      'NodeData_t *' from 'const NodeData_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2138:28: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2139:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2255:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2256:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2305:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2306:8: Assigning to
+      'float64_t *' from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2307:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_binary_tree.pxi:2308:8: Assigning to 'intp_t
+      *' from 'const intp_t *' discards const qualifier
+      warning: sklearn/neighbors/_kd_tree.pyx:46:4: Assigning to 'float64_t *'
+      from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_kd_tree.pyx:47:4: Assigning to 'float64_t *'
+      from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_kd_tree.pyx:48:4: Assigning to 'float64_t *'
+      from 'const float64_t *' discards const qualifier
+      warning: sklearn/neighbors/_kd_tree.pyx:49:4: Assigning to 'intp_t *'
+      from 'const intp_t *' discards const qualifier
+      performance hint: sklearn/neighbors/_quad_tree.pyx:592:20: Exception
+      check after calling '__pyx_fuse_7safe_realloc' will always require the
+      GIL to be acquired.
+      Possible solutions:
+      	1. Declare '__pyx_fuse_7safe_realloc' as 'noexcept' if you control
+      the definition and you're sure you don't want the function to raise
+      exceptions.
+      	2. Declare any exception value explicitly for functions in pxd files.
+      performance hint:
+      sklearn/preprocessing/_csr_polynomial_expansion.pyx:159:0: Exception
+      check on '_csr_polynomial_expansion' will always require the GIL to
+      be acquired.
+      Possible solutions:
+      	1. Declare '_csr_polynomial_expansion' as 'noexcept' if you control
+      the definition and you're sure you don't want the function to raise
+      exceptions.
+      	2. Use an 'int' return type on '_csr_polynomial_expansion' to allow an
+      error code to be returned.
+      performance hint: sklearn/tree/_splitter.pyx:233:0: Exception check on
+      'shift_missing_values_to_left_if_required' will always require the GIL
+      to be acquired.
+      Possible solutions:
+      	1. Declare 'shift_missing_values_to_left_if_required' as 'noexcept' if
+      you control the definition and you're sure you don't want the function
+      to raise exceptions.
+      	2. Use an 'int' return type on 'shift_missing_values_to_left_if_required'
+      to allow an error code to be returned.
+      performance hint: sklearn/tree/_splitter.pyx:494:48: Exception check
+      after calling 'shift_missing_values_to_left_if_required' will always
+      require the GIL to be acquired.
+      Possible solutions:
+      	1. Declare 'shift_missing_values_to_left_if_required' as 'noexcept' if
+      you control the definition and you're sure you don't want the function
+      to raise exceptions.
+      	2. Use an 'int' return type on 'shift_missing_values_to_left_if_required'
+      to allow an error code to be returned.
+      performance hint: sklearn/tree/_splitter.pyx:494:48: Exception check
+      after calling 'shift_missing_values_to_left_if_required' will always
+      require the GIL to be acquired.
+      Possible solutions:
+      	1. Declare 'shift_missing_values_to_left_if_required' as 'noexcept' if
+      you control the definition and you're sure you don't want the function
+      to raise exceptions.
+      	2. Use an 'int' return type on 'shift_missing_values_to_left_if_required'
+      to allow an error code to be returned.
+      performance hint: sklearn/tree/_tree.pyx:757:20: Exception check after
+      calling '__pyx_fuse_6safe_realloc' will always require the GIL to be
+      acquired.
+      Possible solutions:
+      	1. Declare '__pyx_fuse_6safe_realloc' as 'noexcept' if you control
+      the definition and you're sure you don't want the function to raise
+      exceptions.
+      	2. Declare any exception value explicitly for functions in pxd files.
+      performance hint: sklearn/tree/_tree.pyx:758:20: Exception check after
+      calling '__pyx_fuse_4safe_realloc' will always require the GIL to be
+      acquired.
+      Possible solutions:
+      	1. Declare '__pyx_fuse_4safe_realloc' as 'noexcept' if you control
+      the definition and you're sure you don't want the function to raise
+      exceptions.
+      	2. Declare any exception value explicitly for functions in pxd files.
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # particularly tiny on Windows/MSVC.
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 0x7FFFFFFF
+
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pxd:19:33: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 0x7FFFFFFF
+
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       cnp.int_t n_samples,
+                                       ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pxd:20:33: 'int_t' is not a type identifier
+      performance hint: sklearn/tree/_utils.pyx:25:0: Exception check on
+      'safe_realloc' will always require the GIL to be acquired. Declare
+      'safe_realloc' as 'noexcept' if you control the definition and you're
+      sure you don't want the function to raise exceptions.
+      Traceback (most recent call last):
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/Cython/Build/Dependencies.py",
+      line 1306, in cythonize_one_helper
+          return cythonize_one(*m)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/Cython/Build/Dependencies.py",
+      line 1298, in cythonize_one
+          raise CompileError(None, pyx_file)
+      Cython.Compiler.Errors.CompileError: sklearn/tree/_utils.pyx
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # particularly tiny on Windows/MSVC.
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 0x7FFFFFFF
+
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pxd:19:33: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 0x7FFFFFFF
+
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       cnp.int_t n_samples,
+                                       ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pxd:20:33: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+      from . import check_random_state
+
+      cdef UINT32_t DEFAULT_SEED = 1
+
+
+      cpdef _sample_without_replacement_check_input(cnp.int_t n_population,
+                                                    ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:22:46: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+
+      cdef UINT32_t DEFAULT_SEED = 1
+
+
+      cpdef _sample_without_replacement_check_input(cnp.int_t n_population,
+                                                    cnp.int_t n_samples):
+                                                    ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:23:46: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+                               'n_samples, got n_samples > n_population (%s
+      > %s)'
+                               % (n_samples, n_population))
+
+
+      cpdef _sample_without_replacement_with_tracking_selection(
+              cnp.int_t n_population,
+              ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:36:8: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+                               % (n_samples, n_population))
+
+
+      cpdef _sample_without_replacement_with_tracking_selection(
+              cnp.int_t n_population,
+              cnp.int_t n_samples,
+              ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:37:8: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+              out[i] = j
+
+          return np.asarray(out)
+
+
+      cpdef _sample_without_replacement_with_pool(cnp.int_t n_population,
+                                                  ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:100:44: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+
+          return np.asarray(out)
+
+
+      cpdef _sample_without_replacement_with_pool(cnp.int_t n_population,
+                                                  cnp.int_t n_samples,
+                                                  ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:101:44: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+
+          return np.asarray(out)
+
+
+      cpdef _sample_without_replacement_with_reservoir_sampling(
+          cnp.int_t n_population,
+          ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:157:4: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          return np.asarray(out)
+
+
+      cpdef _sample_without_replacement_with_reservoir_sampling(
+          cnp.int_t n_population,
+          cnp.int_t n_samples,
+          ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:158:4: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+                  out[j] = i
+
+          return np.asarray(out)
+
+
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:216:33: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+
+          return np.asarray(out)
+
+
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       cnp.int_t n_samples,
+                                       ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:217:33: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          out : ndarray of shape (n_samples,)
+              The sampled subsets of integer.
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+
+          cdef cnp.int_t i
+               ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:79:9: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+              The sampled subsets of integer.
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+               ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:80:9: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+          cdef cnp.int_t[::1] out = np.empty((n_samples, ), dtype=int)
+               ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:81:9: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          out : ndarray of shape (n_samples,)
+              The sampled subsets of integer.
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+
+          cdef cnp.int_t i
+               ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:134:9: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+              The sampled subsets of integer.
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+               ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:135:9: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+          cdef cnp.int_t[::1] out = np.empty((n_samples,), dtype=int)
+               ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:136:9: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          _sample_without_replacement_check_input(n_population, n_samples)
+
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+          cdef cnp.int_t[::1] out = np.empty((n_samples,), dtype=int)
+          cdef cnp.int_t[::1] pool = np.empty((n_population,), dtype=int)
+               ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:137:9: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+              necessarily random. Use a random permutation of the array if
+      the order
+              of the items has to be randomized.
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+
+          cdef cnp.int_t i
+               ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:194:9: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+              of the items has to be randomized.
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+               ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:195:9: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+          cdef cnp.int_t[::1] out = np.empty((n_samples, ), dtype=int)
+               ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:196:9: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # 054289.html
+          #
+          for i in range(n_samples):
+              out[i] = i
+
+          for i from n_samples <= i < n_population:
+          ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pyx:208:4: Compiler crash in
+      AnalyseExpressionsTransform
+
+      ModuleNode.body = StatListNode(_random.pyx:13:0)
+      StatListNode.stats[8] = StatListNode(_random.pyx:156:0)
+      StatListNode.stats[0] = CFuncDefNode(_random.pyx:156:0,
+          args = [...]/3,
+          c_compile_guard = '',
+          doc = 'Sample integers without replacement.\n\n    Select
+      n_samples integers from the set [0, n_population) without\n
+      replacement.\n\n    Time complexity of\n        O((n_population -
+      n_samples) * O(np.random.randint) + n_samples)\n    Space complexity
+      of O(n_samples)\n\n\n    Parameters\n    ----------\n    n_population
+      : int\n        The size of the set to sample from.\n\n    n_samples
+      : int\n         The number of integer to sample.\n\n    random_state
+      : int, RandomState instance or None, default=None\n        If int,
+      random_state is the seed used by the random number generator;\n
+      If RandomState instance, random_state is the random number generator;\n
+      If None, the random number generator is the RandomState instance used\n
+      by `np.random`.\n\n    Returns\n    -------\n    out : ndarray of shape
+      (n_samples,)\n        The sampled subsets of integer. The order of the
+      items is not\n        necessarily random. Use a random permutation of
+      the array if the order\n        of the items has to be randomized.\n
+      ',
+          modifiers = [...]/0,
+          outer_attrs = [...]/2,
+          overridable = True,
+          visibility = 'private')
+      File 'Nodes.py', line 409, in analyse_expressions:
+      StatListNode(_random.pyx:161:4,
+          is_terminator = True)
+      File 'Nodes.py', line 7834, in analyse_expressions:
+      ForFromStatNode(_random.pyx:208:4,
+          relation1 = '<=',
+          relation2 = '<')
+      File 'Nodes.py', line 7856, in set_up_loop:
+      ForFromStatNode(_random.pyx:208:4,
+          relation1 = '<=',
+          relation2 = '<')
+
+      Compiler crash traceback from this point on:
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/Cython/Compiler/Nodes.py",
+      line 7856, in set_up_loop
+          loop_type = PyrexTypes.widest_numeric_type(loop_type,
+      self.bound1.type)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/Cython/Compiler/PyrexTypes.py",
+      line 5383, in widest_numeric_type
+          elif type1.rank < type2.rank:
+                            ^^^^^^^^^^
+      AttributeError: 'ErrorType' object has no attribute 'rank'
+      Traceback (most recent call last):
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/Cython/Build/Dependencies.py",
+      line 1306, in cythonize_one_helper
+          return cythonize_one(*m)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/Cython/Build/Dependencies.py",
+      line 1298, in cythonize_one
+          raise CompileError(None, pyx_file)
+      Cython.Compiler.Errors.CompileError: sklearn/utils/_random.pyx
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # particularly tiny on Windows/MSVC.
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 0x7FFFFFFF
+
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pxd:19:33: 'int_t' is not a type identifier
+
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 0x7FFFFFFF
+
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       cnp.int_t n_samples,
+                                       ^
+      ------------------------------------------------------------
+
+      sklearn/utils/_random.pxd:20:33: 'int_t' is not a type identifier
+      Traceback (most recent call last):
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/Cython/Build/Dependencies.py",
+      line 1306, in cythonize_one_helper
+          return cythonize_one(*m)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/Cython/Build/Dependencies.py",
+      line 1298, in cythonize_one
+          raise CompileError(None, pyx_file)
+      Cython.Compiler.Errors.CompileError: sklearn/utils/_seq_dataset.pyx
+      warning: sklearn/utils/arrayfuncs.pyx:47:18: Assigning to 'float *' from
+      'const float *' discards const qualifier
+      warning: sklearn/utils/arrayfuncs.pyx:52:18: Assigning to 'float *' from
+      'const float *' discards const qualifier
+      warning: sklearn/utils/arrayfuncs.pyx:47:18: Assigning to 'double *'
+      from 'const double *' discards const qualifier
+      warning: sklearn/utils/arrayfuncs.pyx:52:18: Assigning to 'double *'
+      from 'const double *' discards const qualifier
+      multiprocessing.pool.RemoteTraceback:
+      """
+      Traceback (most recent call last):
+        File "/usr/local/lib/python3.13/multiprocessing/pool.py", line 125,
+      in worker
+          result = (True, func(*args, **kwds))
+                          ~~~~^^^^^^^^^^^^^^^
+        File "/usr/local/lib/python3.13/multiprocessing/pool.py", line 48,
+      in mapstar
+          return list(map(*args))
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/Cython/Build/Dependencies.py",
+      line 1306, in cythonize_one_helper
+          return cythonize_one(*m)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/Cython/Build/Dependencies.py",
+      line 1298, in cythonize_one
+          raise CompileError(None, pyx_file)
+      Cython.Compiler.Errors.CompileError: sklearn/linear_model/_cd_fast.pyx
+      """
+
+      The above exception was the direct cause of the following exception:
+
+      Traceback (most recent call last):
+        File "<string>", line 11, in <module>
+          wheel_filename =
+      backend.build_wheel("/home/adminuser/.cache/uv/builds-v0/.tmp6jKGTE",
+      {}, None)
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/setuptools/build_meta.py",
+      line 432, in build_wheel
+          return _build(['bdist_wheel'])
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/setuptools/build_meta.py",
+      line 423, in _build
+          return self._build_with_temp_dir(
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~^
+              cmd,
+              ^^^^
+          ...<3 lines>...
+              self._arbitrary_args(config_settings),
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+          )
+          ^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/setuptools/build_meta.py",
+      line 404, in _build_with_temp_dir
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/setuptools/build_meta.py",
+      line 512, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/setuptools/build_meta.py",
+      line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 626, in <module>
+        File "<string>", line 620, in setup_package
+        File "<string>", line 554, in configure_extension_modules
+        File
+      "/home/adminuser/.cache/uv/sdists-v6/pypi/scikit-learn/1.3.0/4Wj4p20slBoz4Ehw0HJ4N/src/sklearn/_build_utils/__init__.py",
+      line 80, in cythonize_extensions
+          return cythonize(
+              extension,
+              nthreads=n_jobs,
+              compiler_directives=compiler_directives,
+          )
+        File
+      "/home/adminuser/.cache/uv/builds-v0/.tmp1vD6dg/lib/python3.13/site-packages/Cython/Build/Dependencies.py",
+      line 1145, in cythonize
+          result.get(99999)  # seconds
+          ~~~~~~~~~~^^^^^^^
+        File "/usr/local/lib/python3.13/multiprocessing/pool.py", line 774,
+      in get
+          raise self._value
+      Cython.Compiler.Errors.CompileError: sklearn/linear_model/_cd_fast.pyx
+
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using uv pip install.
+Using Python 3.13.5 environment at /home/adminuser/venv
+Resolved 4 packages in 135ms
+Prepared 4 packages in 108ms
+Installed 4 packages in 11ms
+ [2025-07-21 13:50:29.538056] + markdown-it-py==3.0.0
+ + mdurl==0.1.2
+ + pygments==2.19.2
+ + rich==14.0.0
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+
+──────────────────────────────────────── pip ───────────────────────────────────────────
+
+Using standard pip install.
+Collecting streamlit>=1.28.0 (from -r /mount/src/fraudx/requirements.txt (line 1))
+  Downloading streamlit-1.47.0-py3-none-any.whl.metadata (9.0 kB)
+Collecting pandas>=1.5.0 (from -r /mount/src/fraudx/requirements.txt (line 2))
+  Downloading pandas-2.3.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (91 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.2/91.2 kB 4.3 MB/s eta 0:00:00[2025-07-21 13:50:30.742668] 
+Collecting numpy>=1.21.0 (from -r /mount/src/fraudx/requirements.txt (line 3))
+  Downloading numpy-2.3.1-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.1/62.1 kB 75.0 MB/s eta 0:00:00[2025-07-21 13:50:31.001236] 
+Collecting scikit-learn<1.4.0,>=1.0.0 (from -r /mount/src/fraudx/requirements.txt (line 4))
+  Downloading scikit-learn-1.3.2.tar.gz (7.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.5/7.5 MB 143.2 MB/s eta 0:00:00[2025-07-21 13:50:31.203743] 
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): still running...
+  Preparing metadata (pyproject.toml): still running...
+  Preparing metadata (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Preparing metadata (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [642 lines of output]
+      Partial import of sklearn during the build process.
+      Compiling sklearn/__check_build/_check_build.pyx because it changed.
+      Compiling sklearn/_isotonic.pyx because it changed.
+      Compiling sklearn/_loss/_loss.pyx because it changed.
+      Compiling sklearn/cluster/_dbscan_inner.pyx because it changed.
+      Compiling sklearn/cluster/_hierarchical_fast.pyx because it changed.
+      Compiling sklearn/cluster/_k_means_common.pyx because it changed.
+      Compiling sklearn/cluster/_k_means_lloyd.pyx because it changed.
+      Compiling sklearn/cluster/_k_means_elkan.pyx because it changed.
+      Compiling sklearn/cluster/_k_means_minibatch.pyx because it changed.
+      Compiling sklearn/cluster/_hdbscan/_linkage.pyx because it changed.
+      Compiling sklearn/cluster/_hdbscan/_reachability.pyx because it changed.
+      Compiling sklearn/cluster/_hdbscan/_tree.pyx because it changed.
+      Compiling sklearn/datasets/_svmlight_format_fast.pyx because it changed.
+      Compiling sklearn/decomposition/_online_lda_fast.pyx because it changed.
+      Compiling sklearn/decomposition/_cdnmf_fast.pyx because it changed.
+      Compiling sklearn/ensemble/_gradient_boosting.pyx because it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/_gradient_boosting.pyx because it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/histogram.pyx because it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/splitting.pyx because it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/_binning.pyx because it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/_predictor.pyx because it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/_bitset.pyx because it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/common.pyx because it changed.
+      Compiling sklearn/ensemble/_hist_gradient_boosting/utils.pyx because it changed.
+      Compiling sklearn/feature_extraction/_hashing_fast.pyx because it changed.
+      Compiling sklearn/linear_model/_cd_fast.pyx because it changed.
+      Compiling sklearn/linear_model/_sgd_fast.pyx because it changed.
+      Compiling sklearn/linear_model/_sag_fast.pyx because it changed.
+      Compiling sklearn/manifold/_utils.pyx because it changed.
+      Compiling sklearn/manifold/_barnes_hut_tsne.pyx because it changed.
+      Compiling sklearn/metrics/_pairwise_fast.pyx because it changed.
+      Compiling sklearn/metrics/_dist_metrics.pyx because it changed.
+      Compiling sklearn/metrics/cluster/_expected_mutual_info_fast.pyx because it changed.
+      Compiling sklearn/metrics/_pairwise_distances_reduction/_datasets_pair.pyx because it changed.
+      Compiling sklearn/metrics/_pairwise_distances_reduction/_middle_term_computer.pyx because it changed.
+      Compiling sklearn/metrics/_pairwise_distances_reduction/_base.pyx because it changed.
+      Compiling sklearn/metrics/_pairwise_distances_reduction/_argkmin.pyx because it changed.
+      Compiling sklearn/metrics/_pairwise_distances_reduction/_argkmin_classmode.pyx because it changed.
+      Compiling sklearn/metrics/_pairwise_distances_reduction/_radius_neighbors.pyx because it changed.
+      Compiling sklearn/preprocessing/_csr_polynomial_expansion.pyx because it changed.
+      Compiling sklearn/preprocessing/_target_encoder_fast.pyx because it changed.
+      Compiling sklearn/neighbors/_ball_tree.pyx because it changed.
+      Compiling sklearn/neighbors/_kd_tree.pyx because it changed.
+      Compiling sklearn/neighbors/_partition_nodes.pyx because it changed.
+      Compiling sklearn/neighbors/_quad_tree.pyx because it changed.
+      Compiling sklearn/svm/_newrand.pyx because it changed.
+      Compiling sklearn/svm/_libsvm.pyx because it changed.
+      Compiling sklearn/svm/_liblinear.pyx because it changed.
+      Compiling sklearn/svm/_libsvm_sparse.pyx because it changed.
+      Compiling sklearn/tree/_tree.pyx because it changed.
+      Compiling sklearn/tree/_splitter.pyx because it changed.
+      Compiling sklearn/tree/_criterion.pyx because it changed.
+      Compiling sklearn/tree/_utils.pyx because it changed.
+      Compiling sklearn/utils/sparsefuncs_fast.pyx because it changed.
+      Compiling sklearn/utils/_cython_blas.pyx because it changed.
+      Compiling sklearn/utils/arrayfuncs.pyx because it changed.
+      Compiling sklearn/utils/murmurhash.pyx because it changed.
+      Compiling sklearn/utils/_fast_dict.pyx because it changed.
+      Compiling sklearn/utils/_openmp_helpers.pyx because it changed.
+      Compiling sklearn/utils/_seq_dataset.pyx because it changed.
+      Compiling sklearn/utils/_weight_vector.pyx because it changed.
+      Compiling sklearn/utils/_random.pyx because it changed.
+      Compiling sklearn/utils/_logistic_sigmoid.pyx because it changed.
+      Compiling sklearn/utils/_typedefs.pyx because it changed.
+      Compiling sklearn/utils/_heap.pyx because it changed.
+      Compiling sklearn/utils/_sorting.pyx because it changed.
+      Compiling sklearn/utils/_vector_sentinel.pyx because it changed.
+      Compiling sklearn/utils/_isfinite.pyx because it changed.
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # particularly tiny on Windows/MSVC.
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 2147483647
+      
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                      ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pxd:19:33: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 2147483647
+      
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       cnp.int_t n_samples,
+                                      ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pxd:20:33: 'int_t' is not a type identifier
+      Traceback (most recent call last):
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/Cython/Build/Dependencies.py", line 1262, in cythonize_one_helper
+          return cythonize_one(*m)
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/Cython/Build/Dependencies.py", line 1238, in cythonize_one
+          raise CompileError(None, pyx_file)
+      Cython.Compiler.Errors.CompileError: sklearn/linear_model/_cd_fast.pyx
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # particularly tiny on Windows/MSVC.
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 2147483647
+      
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                      ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pxd:19:33: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 2147483647
+      
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       cnp.int_t n_samples,
+                                      ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pxd:20:33: 'int_t' is not a type identifier
+      Traceback (most recent call last):
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/Cython/Build/Dependencies.py", line 1262, in cythonize_one_helper
+          return cythonize_one(*m)
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/Cython/Build/Dependencies.py", line 1238, in cythonize_one
+          raise CompileError(None, pyx_file)
+      Cython.Compiler.Errors.CompileError: sklearn/tree/_utils.pyx
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # particularly tiny on Windows/MSVC.
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 2147483647
+      
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                      ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pxd:19:33: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 2147483647
+      
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       cnp.int_t n_samples,
+                                      ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pxd:20:33: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+      from . import check_random_state
+      
+      cdef UINT32_t DEFAULT_SEED = 1
+      
+      
+      cpdef _sample_without_replacement_check_input(cnp.int_t n_population,
+                                                   ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:22:46: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+      
+      cdef UINT32_t DEFAULT_SEED = 1
+      
+      
+      cpdef _sample_without_replacement_check_input(cnp.int_t n_population,
+                                                    cnp.int_t n_samples):
+                                                   ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:23:46: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+                               'n_samples, got n_samples > n_population (%s > %s)'
+                               % (n_samples, n_population))
+      
+      
+      cpdef _sample_without_replacement_with_tracking_selection(
+              cnp.int_t n_population,
+             ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:36:8: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+                               % (n_samples, n_population))
+      
+      
+      cpdef _sample_without_replacement_with_tracking_selection(
+              cnp.int_t n_population,
+              cnp.int_t n_samples,
+             ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:37:8: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+              out[i] = j
+      
+          return np.asarray(out)
+      
+      
+      cpdef _sample_without_replacement_with_pool(cnp.int_t n_population,
+                                                 ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:100:44: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+      
+          return np.asarray(out)
+      
+      
+      cpdef _sample_without_replacement_with_pool(cnp.int_t n_population,
+                                                  cnp.int_t n_samples,
+                                                 ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:101:44: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+      
+          return np.asarray(out)
+      
+      
+      cpdef _sample_without_replacement_with_reservoir_sampling(
+          cnp.int_t n_population,
+         ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:157:4: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          return np.asarray(out)
+      
+      
+      cpdef _sample_without_replacement_with_reservoir_sampling(
+          cnp.int_t n_population,
+          cnp.int_t n_samples,
+         ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:158:4: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+                  out[j] = i
+      
+          return np.asarray(out)
+      
+      
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                      ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:216:33: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+      
+          return np.asarray(out)
+      
+      
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       cnp.int_t n_samples,
+                                      ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:217:33: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          out : ndarray of shape (n_samples,)
+              The sampled subsets of integer.
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+      
+          cdef cnp.int_t i
+              ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:79:9: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+              The sampled subsets of integer.
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+      
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+              ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:80:9: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+      
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+          cdef cnp.int_t[::1] out = np.empty((n_samples, ), dtype=int)
+              ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:81:9: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          out : ndarray of shape (n_samples,)
+              The sampled subsets of integer.
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+      
+          cdef cnp.int_t i
+              ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:134:9: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+              The sampled subsets of integer.
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+      
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+              ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:135:9: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+      
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+          cdef cnp.int_t[::1] out = np.empty((n_samples,), dtype=int)
+              ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:136:9: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          _sample_without_replacement_check_input(n_population, n_samples)
+      
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+          cdef cnp.int_t[::1] out = np.empty((n_samples,), dtype=int)
+          cdef cnp.int_t[::1] pool = np.empty((n_population,), dtype=int)
+              ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:137:9: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+              necessarily random. Use a random permutation of the array if the order
+              of the items has to be randomized.
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+      
+          cdef cnp.int_t i
+              ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:194:9: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+              of the items has to be randomized.
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+      
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+              ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:195:9: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          """
+          _sample_without_replacement_check_input(n_population, n_samples)
+      
+          cdef cnp.int_t i
+          cdef cnp.int_t j
+          cdef cnp.int_t[::1] out = np.empty((n_samples, ), dtype=int)
+              ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:196:9: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # 054289.html
+          #
+          for i in range(n_samples):
+              out[i] = i
+      
+          for i from n_samples <= i < n_population:
+         ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pyx:208:4: Compiler crash in AnalyseExpressionsTransform
+      
+      ModuleNode.body = StatListNode(_random.pyx:13:0)
+      StatListNode.stats[8] = StatListNode(_random.pyx:156:6)
+      StatListNode.stats[0] = CFuncDefNode(_random.pyx:156:6,
+          args = [...]/3,
+          doc = 'Sample integers without replacement.\n\n    Select n_samples integers from the set [0, n_population) without\n    replacement.\n\n    Time complexity of\n        O((n_population - n_samples) * O(np.random.randint) + n_samples)\n    Space complexity of O(n_samples)\n\n\n    Parameters\n    ----------\n    n_population : int\n        The size of the set to sample from.\n\n    n_samples : int\n         The number of integer to sample.\n\n    random_state : int, RandomState instance or None, default=None\n        If int, random_state is the seed used by the random number generator;\n        If RandomState instance, random_state is the random number generator;\n        If None, the random number generator is the RandomState instance used\n        by `np.random`.\n\n    Returns\n    -------\n    out : ndarray of shape (n_samples,)\n        The sampled subsets of integer. The order of the items is not\n        necessarily random. Use a random permutation of the array if the order\n        of the items has to be randomized.\n    ',
+          modifiers = [...]/0,
+          overridable = 1,
+          visibility = 'private')
+      File 'Nodes.py', line 435, in analyse_expressions: StatListNode(_random.pyx:161:4,
+          is_terminator = True)
+      File 'Nodes.py', line 6853, in analyse_expressions: ForFromStatNode(_random.pyx:208:4,
+          relation1 = '<=',
+          relation2 = '<')
+      File 'Nodes.py', line 6875, in set_up_loop: ForFromStatNode(_random.pyx:208:4,
+          relation1 = '<=',
+          relation2 = '<')
+      
+      Compiler crash traceback from this point on:
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/Cython/Compiler/Nodes.py", line 6875, in set_up_loop
+          loop_type = PyrexTypes.widest_numeric_type(loop_type, self.bound1.type)
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/Cython/Compiler/PyrexTypes.py", line 4481, in widest_numeric_type
+          elif type1.rank < type2.rank:
+                            ^^^^^^^^^^
+      AttributeError: 'ErrorType' object has no attribute 'rank'
+      Traceback (most recent call last):
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/Cython/Build/Dependencies.py", line 1262, in cythonize_one_helper
+          return cythonize_one(*m)
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/Cython/Build/Dependencies.py", line 1238, in cythonize_one
+          raise CompileError(None, pyx_file)
+      Cython.Compiler.Errors.CompileError: sklearn/utils/_random.pyx
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # particularly tiny on Windows/MSVC.
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 2147483647
+      
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                      ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pxd:19:33: 'int_t' is not a type identifier
+      
+      Error compiling Cython file:
+      ------------------------------------------------------------
+      ...
+          # It corresponds to the maximum representable value for
+          # 32-bit signed integers (i.e. 2^31 - 1).
+          RAND_R_MAX = 2147483647
+      
+      cpdef sample_without_replacement(cnp.int_t n_population,
+                                       cnp.int_t n_samples,
+                                      ^
+      ------------------------------------------------------------
+      
+      sklearn/utils/_random.pxd:20:33: 'int_t' is not a type identifier
+      Traceback (most recent call last):
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/Cython/Build/Dependencies.py", line 1262, in cythonize_one_helper
+          return cythonize_one(*m)
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/Cython/Build/Dependencies.py", line 1238, in cythonize_one
+          raise CompileError(None, pyx_file)
+      Cython.Compiler.Errors.CompileError: sklearn/utils/_seq_dataset.pyx
+      [ 1/68] Cythonizing sklearn/__check_build/_check_build.pyx
+      [ 2/68] Cythonizing sklearn/_isotonic.pyx
+      [ 3/68] Cythonizing sklearn/_loss/_loss.pyx
+      [ 4/68] Cythonizing sklearn/cluster/_dbscan_inner.pyx
+      [ 5/68] Cythonizing sklearn/cluster/_hdbscan/_linkage.pyx
+      [ 6/68] Cythonizing sklearn/cluster/_hdbscan/_reachability.pyx
+      [ 7/68] Cythonizing sklearn/cluster/_hdbscan/_tree.pyx
+      [ 8/68] Cythonizing sklearn/cluster/_hierarchical_fast.pyx
+      [ 9/68] Cythonizing sklearn/cluster/_k_means_common.pyx
+      [10/68] Cythonizing sklearn/cluster/_k_means_elkan.pyx
+      [11/68] Cythonizing sklearn/cluster/_k_means_lloyd.pyx
+      [12/68] Cythonizing sklearn/cluster/_k_means_minibatch.pyx
+      [13/68] Cythonizing sklearn/datasets/_svmlight_format_fast.pyx
+      [14/68] Cythonizing sklearn/decomposition/_cdnmf_fast.pyx
+      [15/68] Cythonizing sklearn/decomposition/_online_lda_fast.pyx
+      [16/68] Cythonizing sklearn/ensemble/_gradient_boosting.pyx
+      [17/68] Cythonizing sklearn/ensemble/_hist_gradient_boosting/_binning.pyx
+      [18/68] Cythonizing sklearn/ensemble/_hist_gradient_boosting/_bitset.pyx
+      [19/68] Cythonizing sklearn/ensemble/_hist_gradient_boosting/_gradient_boosting.pyx
+      [20/68] Cythonizing sklearn/ensemble/_hist_gradient_boosting/_predictor.pyx
+      [21/68] Cythonizing sklearn/ensemble/_hist_gradient_boosting/common.pyx
+      [22/68] Cythonizing sklearn/ensemble/_hist_gradient_boosting/histogram.pyx
+      [23/68] Cythonizing sklearn/ensemble/_hist_gradient_boosting/splitting.pyx
+      [24/68] Cythonizing sklearn/ensemble/_hist_gradient_boosting/utils.pyx
+      [25/68] Cythonizing sklearn/feature_extraction/_hashing_fast.pyx
+      [26/68] Cythonizing sklearn/linear_model/_cd_fast.pyx
+      [27/68] Cythonizing sklearn/linear_model/_sag_fast.pyx
+      [28/68] Cythonizing sklearn/linear_model/_sgd_fast.pyx
+      [29/68] Cythonizing sklearn/manifold/_barnes_hut_tsne.pyx
+      [30/68] Cythonizing sklearn/manifold/_utils.pyx
+      [31/68] Cythonizing sklearn/metrics/_dist_metrics.pyx
+      [32/68] Cythonizing sklearn/metrics/_pairwise_distances_reduction/_argkmin.pyx
+      [33/68] Cythonizing sklearn/metrics/_pairwise_distances_reduction/_argkmin_classmode.pyx
+      [34/68] Cythonizing sklearn/metrics/_pairwise_distances_reduction/_base.pyx
+      [35/68] Cythonizing sklearn/metrics/_pairwise_distances_reduction/_datasets_pair.pyx
+      [36/68] Cythonizing sklearn/metrics/_pairwise_distances_reduction/_middle_term_computer.pyx
+      [37/68] Cythonizing sklearn/metrics/_pairwise_distances_reduction/_radius_neighbors.pyx
+      [38/68] Cythonizing sklearn/metrics/_pairwise_fast.pyx
+      [39/68] Cythonizing sklearn/metrics/cluster/_expected_mutual_info_fast.pyx
+      [40/68] Cythonizing sklearn/neighbors/_ball_tree.pyx
+      [41/68] Cythonizing sklearn/neighbors/_kd_tree.pyx
+      [42/68] Cythonizing sklearn/neighbors/_partition_nodes.pyx
+      [43/68] Cythonizing sklearn/neighbors/_quad_tree.pyx
+      [44/68] Cythonizing sklearn/preprocessing/_csr_polynomial_expansion.pyx
+      [45/68] Cythonizing sklearn/preprocessing/_target_encoder_fast.pyx
+      [46/68] Cythonizing sklearn/svm/_liblinear.pyx
+      [47/68] Cythonizing sklearn/svm/_libsvm.pyx
+      [48/68] Cythonizing sklearn/svm/_libsvm_sparse.pyx
+      [49/68] Cythonizing sklearn/svm/_newrand.pyx
+      [50/68] Cythonizing sklearn/tree/_criterion.pyx
+      [51/68] Cythonizing sklearn/tree/_splitter.pyx
+      [52/68] Cythonizing sklearn/tree/_tree.pyx
+      [53/68] Cythonizing sklearn/tree/_utils.pyx
+      [54/68] Cythonizing sklearn/utils/_cython_blas.pyx
+      [55/68] Cythonizing sklearn/utils/_fast_dict.pyx
+      [56/68] Cythonizing sklearn/utils/_heap.pyx
+      [57/68] Cythonizing sklearn/utils/_isfinite.pyx
+      [58/68] Cythonizing sklearn/utils/_logistic_sigmoid.pyx
+      [59/68] Cythonizing sklearn/utils/_openmp_helpers.pyx
+      [60/68] Cythonizing sklearn/utils/_random.pyx
+      [61/68] Cythonizing sklearn/utils/_seq_dataset.pyx
+      [62/68] Cythonizing sklearn/utils/_sorting.pyx
+      [63/68] Cythonizing sklearn/utils/_typedefs.pyx
+      [64/68] Cythonizing sklearn/utils/_vector_sentinel.pyx
+      [65/68] Cythonizing sklearn/utils/_weight_vector.pyx
+      [66/68] Cythonizing sklearn/utils/arrayfuncs.pyx
+      [67/68] Cythonizing sklearn/utils/murmurhash.pyx
+      [68/68] Cythonizing sklearn/utils/sparsefuncs_fast.pyx
+      multiprocessing.pool.RemoteTraceback:
+      """
+      Traceback (most recent call last):
+        File "/usr/local/lib/python3.13/multiprocessing/pool.py", line 125, in worker
+          result = (True, func(*args, **kwds))
+                          ~~~~^^^^^^^^^^^^^^^
+        File "/usr/local/lib/python3.13/multiprocessing/pool.py", line 48, in mapstar
+          return list(map(*args))
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/Cython/Build/Dependencies.py", line 1262, in cythonize_one_helper
+          return cythonize_one(*m)
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/Cython/Build/Dependencies.py", line 1238, in cythonize_one
+          raise CompileError(None, pyx_file)
+      Cython.Compiler.Errors.CompileError: sklearn/linear_model/_cd_fast.pyx
+      """
+      
+      The above exception was the direct cause of the following exception:
+      
+      Traceback (most recent call last):
+        File "/home/adminuser/venv/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 353, in <module>
+          main()
+          ~~~~^^
+        File "/home/adminuser/venv/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 335, in main
+          json_out['return_val'] = hook(**hook_input['kwargs'])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/home/adminuser/venv/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 149, in prepare_metadata_for_build_wheel
+          return hook(metadata_directory, config_settings)
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 374, in prepare_metadata_for_build_wheel
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 512, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 633, in <module>
+        File "<string>", line 627, in setup_package
+        File "<string>", line 554, in configure_extension_modules
+        File "/tmp/pip-install-x_a376oy/scikit-learn_efaa13b84d894064bc08bd0ea653e202/sklearn/_build_utils/__init__.py", line 80, in cythonize_extensions
+          return cythonize(
+              extension,
+              nthreads=n_jobs,
+              compiler_directives=compiler_directives,
+          )
+        File "/tmp/pip-build-env-s6w7etrt/overlay/lib/python3.13/site-packages/Cython/Build/Dependencies.py", line 1106, in cythonize
+          result.get(99999)  # seconds
+          ~~~~~~~~~~^^^^^^^
+        File "/usr/local/lib/python3.13/multiprocessing/pool.py", line 774, in get
+          raise self._value
+      Cython.Compiler.Errors.CompileError: sklearn/linear_model/_cd_fast.pyx
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+
+[notice] A new release of pip is available: 24.0 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+Checking if Streamlit is installed
+Installing rich for an improved exception logging
+Using standard pip install.
+Collecting rich>=10.14.0
+  Downloading rich-14.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting markdown-it-py>=2.2.0 (from rich>=10.14.0)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting pygments<3.0.0,>=2.13.0 (from rich>=10.14.0)
+  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.14.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading rich-14.0.0-py3-none-any.whl (243 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.2/243.2 kB 12.9 MB/s eta 0:00:00[2025-07-21 13:53:17.828962] 
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 87.5/87.5 kB 206.1 MB/s eta 0:00:00[2025-07-21 13:53:17.839838] 
+Downloading pygments-2.19.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 82.3 MB/s eta 0:00:00[2025-07-21 13:53:17.865405] 
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Installing collected packages: pygments, mdurl, markdown-it-py, rich
+  Attempting uninstall: pygments
+    Found existing installation: Pygments 2.19.2
+    Uninstalling Pygments-2.19.2:
+      Successfully uninstalled Pygments-2.19.2
+  Attempting uninstall: mdurl
+    Found existing installation: mdurl 0.1.2
+    Uninstalling mdurl-0.1.2:
+      Successfully uninstalled mdurl-0.1.2
+  Attempting uninstall: markdown-it-py
+    Found existing installation: markdown-it-py 3.0.0
+    Uninstalling markdown-it-py-3.0.0:
+      Successfully uninstalled markdown-it-py-3.0.0
+  Attempting uninstall: rich
+    Found existing installation: rich 14.0.0
+    Uninstalling rich-14.0.0:
+      Successfully uninstalled rich-14.0.0
+Successfully installed markdown-it-py-3.0.0 mdurl-0.1.2 pygments-2.19.2 rich-14.0.0
+
+[notice] A new release of pip is available: 24.0 -> 25.1.1
+[notice] To update, run: pip install --upgrade pip
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+[13:53:20] ❗️ installer returned a non-zero exit code
+[13:53:20] ❗️ Error during processing dependencies! Please fix the error and push an update, or try restarting the app.
